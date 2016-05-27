@@ -8,7 +8,9 @@
 #include <curlpp/Easy.hpp>
 #include <curlpp/Options.hpp>
 
-#include "json.hpp"
+#include <jsoncpp.cpp>
+#include <json/json.h>
+#include <json/json-forwards.h>
 
 /*
 1. Ask user for location parameters and save them
