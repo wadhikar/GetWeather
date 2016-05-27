@@ -11,6 +11,16 @@
 #include <jsoncpp.cpp>
 #include <json/json.h>
 #include <json/json-forwards.h>
+#include <json/reader.h>
+#include <json/writer.h>
+#include <json/value.h>
+
+// JSON reader and writer steps
+// 1 - You need a CPP JSON value object (Json::Value) to store your data
+//
+// 2 - Use a Json Reader (Json::Reader) to read a JSON String and parse into a JSON Object
+//
+// 3 - Do your Stuff
 
 /*
 1. Ask user for location parameters and save them
